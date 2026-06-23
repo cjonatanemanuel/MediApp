@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Medi.",
+    "slug": "medi-app",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00A86B"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.medi.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Medi. usa la cámara para tomar una foto del medicamento.",
+        "NSPhotoLibraryUsageDescription": "Medi. accede a la galería para asociar una imagen al medicamento.",
+        "NSLocationWhenInUseUsageDescription": "Medi. usa la ubicación para registrar la farmacia.",
+        "NSContactsUsageDescription": "Medi. accede a los contactos para asociar un médico o familiar.",
+        "NSCalendarsUsageDescription": "Medi. crea eventos en el calendario para recordarte las tomas."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00A86B"
+      },
+      "package": "com.medi.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_CONTACTS",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#00A86B"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Medi. accede a la galería para asociar una imagen al medicamento.",
+          "cameraPermission": "Medi. usa la cámara para tomar una foto del medicamento."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Medi. usa la ubicación para registrar la farmacia."
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Medi. accede a los contactos para asociar un médico o familiar."
+        }
+      ],
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "Medi. crea eventos en el calendario para recordarte las tomas."
+        }
+      ]
+    ]
+  }
+}
