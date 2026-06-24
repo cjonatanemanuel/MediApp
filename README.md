@@ -125,23 +125,10 @@ funcionalidad y la validación final en el emulador fueron definidas por el auto
   claro."*
 - *"Configurá Jest con jest-expo y dame un test del store y uno de un componente."*
 
-**Comparación código generado vs. integrado:** el código sugerido se tomó como
-base y se ajustó al proyecto: nombres y comentarios en español, integración con el
-theme y los componentes ya existentes, manejo del namespacing por usuario y
-adecuación de las APIs a las versiones de SDK 51. Las sugerencias que no encajaban
-con la estructura previa fueron descartadas o reescritas.
-
----
-
-## ❌ Fuera de alcance (según consigna)
-Sin backend, sin bases de datos externas, sin animaciones complejas. Testing
-acotado a los 3 tests mínimos solicitados.
-
 ---
 
 ## 📱 Video DEMO
-🎬 *(Pendiente: enlace al video actualizado en YouTube, máx. 1 min.)*
-
+https://drive.google.com/file/d/17i02S_GNFmRPmwroZ5R91-KELMrWd7yT/view?usp=drive_link
 ---
 
 ## 👨‍💻 Autor
