@@ -14,7 +14,7 @@ automatizado con Jest y la migración del estado a un store global con **Zustand
 
 ---
 
-## 🆕 Novedades del Parcial 2
+## 🆕 Parcial 2 - Actualizaciones
 
 ### 1. Estado global con Zustand
 - `src/store/useMedStore.js` — store de la lista de medicaciones, con acciones
